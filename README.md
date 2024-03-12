@@ -26,4 +26,4 @@
 - Firewalls
   
 #### Hand on Lab
-- Set up Mikrotik : Mikrotik-Lab.pdf[https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/4184522375c9b43be018cce71dd053a62cf25804/ISOC-DDCN-LAB2-Mikrotik-setup.pdf]
+- Set up Mikrotik : [Mikrotik-Lab.pdf](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/4184522375c9b43be018cce71dd053a62cf25804/ISOC-DDCN-LAB2-Mikrotik-setup.pdf)
