@@ -26,4 +26,4 @@
 - Firewalls
   
 #### Hand on Lab
-- Set up Mikrotik
+- Set up Mikrotik : /ISOC-DDCN-LAB2-Mikrotik-setup.pdf
