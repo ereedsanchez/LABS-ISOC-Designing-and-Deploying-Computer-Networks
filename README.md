@@ -50,3 +50,5 @@ In the second part of this lab, we will emulate the making of the internet. Reme
 13. Connect your WAN port to the Mikrotik that has internet.  If the main mikrotik router no longer has ports you can connect to your nieghbors Mikrotik router.
 14. If you have internet, you can now claim you built a small portion of the internet by connecting your small lan network to a greater WAN network!  You are a winner!
 
+[<img src="images/Mikro1.png">](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/main/images/Mikro1.png)
+
