@@ -52,3 +52,5 @@ In the second part of this lab, we will emulate the making of the internet. Reme
 
 [<img src="images/Mikro1.png">](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/main/images/Mikro1.png)
 
+[<img src="images/mikro2.png">](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/main/images/mikro2.png)
+
