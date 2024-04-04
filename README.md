@@ -1,4 +1,4 @@
-# LABS-ISOC-Designing-and-Deploying-Computer-Networks
+# ISOC Designing and Deploying Computer Networks LABS
 
 ## Lab 1 - Basic Networking 
 #### Lecture: https://docs.google.com/presentation/d/1-A1YdEBYIDAOlrksCNzp31u37SOQqAPIBkinkNxtqNY/edit?usp=sharing
