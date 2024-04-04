@@ -1,6 +1,6 @@
 # LABS-ISOC-Designing-and-Deploying-Computer-Networks
 
-## Lab 1 - 
+## Lab 1 - Basic Networking 
 #### Lecture: https://docs.google.com/presentation/d/1-A1YdEBYIDAOlrksCNzp31u37SOQqAPIBkinkNxtqNY/edit?usp=sharing
 - Course Background
 - Introductions
@@ -55,7 +55,7 @@ In the second part of this lab, we will emulate the making of the internet. Reme
 [<img src="images/mikro2.png">](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/main/images/mikro2.png)
 
 
-## Lab 3
+## Lab 3 - Long Distance Wifi
 #### Lecture: Wireless Networking https://docs.google.com/presentation/d/1rShq60_D9zChohIO1JIKpAD2wM9S0iUwqiGJKID3aSE/edit?usp=sharing
 Radio Waves
 History of Radio Technology 
@@ -121,4 +121,8 @@ Ubiquiti is an awesome company that makes wireless radios and antennas. They off
    - Open a web browser and try accessing the internet or the Litebeam's web interface to confirm the connection.
 
 Remember to take note of any specific instructions or settings provided by your instructor for this lab. If you encounter any issues during the setup process, don't hesitate to ask your instructor for assistance.
+
+
+## Lab 4 - Long Distance Wifi + Mikrotik
+
 
