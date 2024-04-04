@@ -54,3 +54,71 @@ In the second part of this lab, we will emulate the making of the internet. Reme
 
 [<img src="images/mikro2.png">](https://github.com/ereedsanchez/LABS-ISOC-Designing-and-Deploying-Computer-Networks/blob/main/images/mikro2.png)
 
+
+## Lab 3
+#### Lecture: Wireless Networking https://docs.google.com/presentation/d/1rShq60_D9zChohIO1JIKpAD2wM9S0iUwqiGJKID3aSE/edit?usp=sharing
+Radio Waves
+History of Radio Technology 
+Heinrich Hertz Radio Experiments
+Hedy Lamar - frequency hopping 
+Electricity - AC DC
+Antenas and Electromagnetic Frequency
+Wave Attributes
+Wavelength
+Bandwidth
+Wifi Spectrum 2GHz, 5GHz
+US FCC Frequency Allocation
+Radio Wave Propagation 
+Long Distance Wifi
+Beacon Frames
+Wireless Security 
+
+#### Hand on Lab: Ubiquiti Nanobeam setup
+
+Ubiquiti is an awesome company that makes wireless radios and antennas. They offer very affordable equipment and provide a platform for establishing long-distance WiFi connections. These radios are not meant to be used for WiFi connections to your phone or laptop, but instead for long-range connections from one building to another. In the front of the room, I have set up a Ubiquiti Litebeam as an access point. In today's lab, you will set up your Nanostation and connect it to the Litebeam access point.
+
+1. Mounting the Nanostation:
+   - Find a suitable location to mount your Nanostation, facing the direction of the Litebeam access point.
+   - Use the included mounting hardware to securely attach the Nanostation to the chosen location.
+
+2. Powering the device:
+   - Connect the Nanostation to a power source using the provided PoE (Power over Ethernet) adapter.
+   - Plug the PoE adapter into a power outlet.
+
+3. Connecting the Ethernet cable:
+   - From your POE adapter, connect the side that says POE to the Ethernet port on the Nanostation.
+   - Connect the other port of the POE adapter to your computer's Ethernet port.
+
+4. Change you IP in your computer
+- Change the IP address on your computer to 192.168.1.100, Subnet 255.255.255.0, gateway 192.168.1.1, DNS 192.168.1.1
+- Save your changes
+
+4. Accessing the web interface:
+   - Open a web browser on your computer and enter the default IP address of the Nanostation (192.168.1.20) into the address bar.
+   - Log in using the default username (ubnt) and password (ubnt).
+
+5. Configuring the device:
+   - Once logged in, you'll be guided through the setup wizard.
+   - Select the "Station" operating mode since you'll be connecting to the Litebeam access point.
+   - In the wireless settings, click on the "Select" button next to the SSID field to discover available wireless networks.
+   - Choose the SSID of the Litebeam access point from the list and enter the password if required.
+   - Configure the network settings (IP address, subnet mask, etc.) as per your network requirements.
+
+6. Aligning the antenna:
+   - Adjust the Nanostation's antenna to point towards the Litebeam access point.
+   - Use the built-in signal strength meter or the Ubiquiti AirOS "Antenna Alignment Tool" to fine-tune the antenna alignment for the best signal strength.
+
+7. Updating the firmware (if necessary):
+   - Check if there are any available firmware updates for your Nanostation model.
+   - If an update is available, download and install it following the provided instructions.
+
+8. Saving and applying settings:
+   - Once you've completed the configuration and antenna alignment, click on the "Apply" button to save the changes.
+   - The Nanostation will reboot with the new configuration.
+
+9. Testing the connection:
+   - After the reboot, check if your Nanostation has successfully connected to the Litebeam access point.
+   - Open a web browser and try accessing the internet or the Litebeam's web interface to confirm the connection.
+
+Remember to take note of any specific instructions or settings provided by your instructor for this lab. If you encounter any issues during the setup process, don't hesitate to ask your instructor for assistance.
+
