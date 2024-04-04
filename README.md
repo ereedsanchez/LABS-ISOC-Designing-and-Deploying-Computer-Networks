@@ -153,6 +153,8 @@ After this follow the instructions from the previous lab to connect to the Front
   
 The best way to think about this connection from your Nanostation is like an invisible cable connecting your MikroTik router to the Nanobeam AP, which is connected to the internet. The Nanostation should be set to bridge mode, and it will "bridge" the connection from your MikroTik to the internet. Also note that you will receive a WAN IP address on the MikroTik from the DHCP server on the "Main MikroTik," which is connected to the Nanobeam AP. Additionally, your Nanostation will also have an IP address assigned from the "Main MikroTik." 
 
+## Lab 5 : Set up a NanoStation AP
+
 
 
 
