@@ -154,7 +154,49 @@ After this follow the instructions from the previous lab to connect to the Front
 The best way to think about this connection from your Nanostation is like an invisible cable connecting your MikroTik router to the Nanobeam AP, which is connected to the internet. The Nanostation should be set to bridge mode, and it will "bridge" the connection from your MikroTik to the internet. Also note that you will receive a WAN IP address on the MikroTik from the DHCP server on the "Main MikroTik," which is connected to the Nanobeam AP. Additionally, your Nanostation will also have an IP address assigned from the "Main MikroTik." 
 
 ## Lab 5 : Set up a NanoStation AP
+In previous labs, we were setting up a Nanostation as the client and connecting to an AP at the front of the room. Today, you will set up your Nanostation as a point-to-multipoint AP and work with another group to connect to you.
 
+To set up a Ubiquiti Nanostation as an Access Point (AP), follow these steps:
+
+1. Connect to the Nanostation:
+   - Power on the Nanostation and connect it to your computer using an Ethernet cable.
+   - Ensure that your computer's IP address is set to obtain an IP automatically (DHCP).
+
+2. Access the web interface:
+   - Open a web browser and enter the default IP address of the Nanostation (usually 192.168.1.20) in the address bar.
+   - Or connect via configuration wifi
+   - Log in using the default credentials (usually username: ubnt, password: ubnt).
+
+3. Configure the operating mode:
+   - In the Nanostation's web interface, navigate to the "Wireless" tab.
+   - Under the "Wireless Mode" section, select "Access Point" from the dropdown menu.
+
+4. Set up the wireless network:
+   - In the "Wireless" tab, go to the "Wireless Network" section.
+   - Enter a name for your wireless network (SSID) in the "SSID" field.
+   - Choose a security mode (e.g., WPA2-AES) and enter a strong password in the "Security" section.
+
+5. Configure the network settings:
+   - Navigate to the "Network" tab in the web interface.
+   - In the "Network Settings" section, set the IP address, subnet mask, and gateway according to your network requirements.
+   - If you want the Nanostation to assign IP addresses to connected devices, enable the DHCP server and configure the IP address range.
+
+6. Update the firmware (optional):
+   - Check if there are any firmware updates available for your Nanostation model.
+   - If an update is available, download it from the Ubiquiti website and follow the instructions to install it through the web interface.
+
+7. Save and apply the settings:
+   - Once you have completed the configuration, click the "Apply" button to save the changes.
+   - The Nanostation will reboot with the new settings.
+
+8. Connect devices to the Nanostation:
+   - After the reboot, devices can connect to the Nanostation's wireless network using the SSID and password you configured.
+   - If you enabled the DHCP server, the connected devices will automatically receive IP addresses from the Nanostation.
+
+9. Test the connection:
+   - Verify that the connected devices can communicate with each other and access the internet (if the Nanostation is connected to an internet-enabled network).
+
+Note: The specific steps and menu options may vary slightly depending on the firmware version of your Nanostation. If you encounter any issues or have specific requirements, consult the Ubiquiti documentation or seek assistance from the instructor.
 
 
 
