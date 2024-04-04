@@ -125,4 +125,31 @@ Remember to take note of any specific instructions or settings provided by your 
 
 ## Lab 4 - Long Distance Wifi + Mikrotik
 
+In the previous lab, we connected to the Nanostation via an Ethernet cable connected to our computer. However, there is actually an easier way to connect. These new Nanostations also have a configuration WiFi radio. This radio is only for configuring the device and will only be on for 15 minutes. This is for security reasons. Follow these steps and connect once again to the front-of-class AP, configuring your radio with the configuration WiFi.
+
+##### From Ubiquiti:
+Accessing airOS via Wi-Fi
+
+Verify connectivity in the airOS® Configuration Interface using the UISP™ app or Web Portal. Both are available for 15 minutes immediately after you power on the device. If necessary, you can power cycle the device to re-enable its Wi-Fi.
+
+Y have the option to download the UISP App or 
+Connect your device’s Wi-Fi to the SSID named: <model>:<MAC Address>
+
+You can find the mac address on the sticker placed on the Nanostation
+Note: Ensure that DHCP is enabled on your Wi-Fi adapter.
+
+Launch the app and follow the on-screen instructions.
+Web Portal: Connect your device’s Wi-Fi to the SSID named: <model>:<MAC Address>
+Note: Ensure that your Wi-Fi connection has DHCP enabled.
+
+Launch your web browser and go to: http://setup.ui.com
+
+Select your Country and Language. You must agree to the Terms of Use to use the product. Click Continue.
+Create a username and password. Confirm your new password and then click Save.
+The airOS Configuration Interface will appear, allowing you to customize your settings as needed. For additional details, refer to the User Guide available at ui.com/download/airmax-ac
+
+After this follow the instructions from the previous lab to connect to the Front of the room AP. 
+
+
+
 
