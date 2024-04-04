@@ -151,7 +151,7 @@ After this follow the instructions from the previous lab to connect to the Front
    1. Connect your ethernet cable from your POE adapter (that was previoulsy connected to your computer) to your Mikrotik router port 1 WAN.
    2. you should now have internet avaliable on your mikrotik router, and the Mikrotik wifi
   
-The best way to think about this connection from your NanoStation is like an invisible cable connecting your Mikrotik router to the Nonobeam AP, which is connected to the internet.  The NanoStation should be set to bridge, and will "bridge" you from your Mikrotik to the internet. Also not that you will receive a WAN IP address on the Mikrotik from the DHCP server on the "Main Mikrotik" which is connected to the NanoBeam AP. Also, your Nanostation will also have IP address assigned from the "Main Mikrotik".  
+The best way to think about this connection from your Nanostation is like an invisible cable connecting your MikroTik router to the Nanobeam AP, which is connected to the internet. The Nanostation should be set to bridge mode, and it will "bridge" the connection from your MikroTik to the internet. Also note that you will receive a WAN IP address on the MikroTik from the DHCP server on the "Main MikroTik," which is connected to the Nanobeam AP. Additionally, your Nanostation will also have an IP address assigned from the "Main MikroTik." 
 
 
 
